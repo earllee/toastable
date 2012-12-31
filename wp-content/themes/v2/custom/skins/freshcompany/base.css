@@ -1,0 +1,366 @@
+/*
+Skin Name:		Fresh Company
+Skin URI:		http://thesisthemes.com/free-thesis-skins/fresh-company/
+Description:	If you want a modern, clean and refreshing look for your business blog then look no further than Fresh Company. This theme is very nice to look at while still keeping your content front and center
+Version:		1.5
+Author:			ThesisThemes
+Author URI:		http://thesisthemes.com/
+*/
+
+/* CLEARS AND STUFF */
+
+.clearall {
+	clear: both;
+}
+
+/* LOSE THE BORDERS */
+
+ #header, .post, .teasers_box, #footer, #footer a, #footer a:active, #archive_info, dl#comment_list dl dt.bypostauthor, dl#comment_list dl dd.bypostauthor .format_text,
+.prev_next, #comment_list, #comment_list dd, #commentform, #sidebar_1, #sidebar_2, #comment_list dt.comment, #comment_list dd.comment,
+dl#comment_list dl dt, dl#comment_list dl dd .format_text {
+	border-bottom: 0px;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+}
+#content_box, #column_wrap {
+	background: none;
+}
+
+/* HEADER */
+
+#header {
+	margin-bottom: 7.5em;
+}
+#logo {
+	width: 40%;
+	float: left;
+}
+#header, #footer {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#header #logo a { 
+	display: block; 
+	height: 70px; 
+	width: 325px; 
+	background: url(images/logo.png) no-repeat; 
+	outline: none; 
+}
+#header #logo, #header #tagline { 
+	text-indent: -9999px; 
+}
+#header_area .page {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#header #tagline {
+	float: left;
+	clear: both;
+}
+
+/* NAV */
+
+.menu li.current a, .menu li.current-cat a {
+	border-bottom: #f6a836 4px solid;
+	}
+.menu a:hover {
+	text-decoration: none;
+	background: none;
+	}
+
+#navbar {
+	float: right;
+	width: 60%;
+	margin-top: 2em;
+}
+.menu {
+	background: none;
+	border: none;
+	width: auto;
+	float: right;
+	margin-top:20px;
+}
+.menu li a, .menu li ul {
+	border: none;
+}
+.custom .menu a, .menu a:active {
+	letter-spacing: normal;
+	margin-left: 1.2em;
+	text-transform: none;
+	padding: 0px;
+	font-weight: bold;
+	line-height: normal;
+	background: none;
+}
+.menu .current .submenu, .menu .current-cat .children {
+	margin-top: -4px;
+}
+.menu .submenu li, .menu .children li {
+	background-color: #00557F;
+	border:1px solid #05364F;
+}
+.menu .submenu li a, .menu .children li a {
+	padding: 5px 0px;
+	text-decoration: none;
+	margin-bottom: 0px;
+}
+.menu .submenu li a:hover, .menu .children li a:hover {
+	border: none;
+	text-decoration: underline;
+}
+.menu li ul li.current a, .menu li.current ul a, .menu li ul li.current-cat a, .menu li.current-cat ul a { 
+	background: none;
+	border: none;
+}
+
+
+/* BODY */
+#container #page {
+	background: none;
+}
+body{
+	background: #20739f url(images/body-bg.jpg) center top no-repeat;
+}
+#content_box {
+	background: #FFF;
+	border: #53849e 1px solid;
+	border-top: #b6c4ce 1px solid;
+	padding-bottom: 1.5em;
+}
+.post_box, .full_width #content_box .page {
+	margin: 0 2.5em 0 2.5em;
+}
+#archive_info p {
+	letter-spacing: normal;
+	text-transform: none;
+}
+	
+
+/* SIDEBAR */
+
+#sidebars #sidebar_2 .sidebar_list {
+	padding-left: 0px;
+}
+.sidebar .widget {
+	background-color: #f4f4f4;
+	-moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
+	border: 1px solid #d6d6d6;
+	padding: 5%;
+	width: 90%;
+}
+.widget h3 {
+	font-variant: normal;
+	letter-spacing: normal;
+	padding-bottom: 1.2em;
+}
+.sidebar_list {
+	margin-right: 1.5em;
+	margin-left: 1.5em;
+}
+#multimedia_box #custom_box {
+	margin-right: 1.5em;
+	margin-left: 1.5em;
+}
+	
+
+/* POST */
+
+.headline_meta * {
+	text-transform: none;
+}
+.headline_meta {
+	font-style: normal;
+	text-transform: capitalize;
+}
+.tt_post .headline_meta {
+	padding-left: 42px;
+}
+.tt_post .headline_area .entry-title {
+	padding-left: 40px;
+}
+.tt_post .headline_area {
+	margin-bottom: .5em;
+}
+.tt_post .post .entry-content {
+	padding-left: 42px;
+}
+
+/* COMMENTS */
+
+#comment_list .children dt.comment, #comment_list .children dd.comment {
+	background: none;
+	border: 0px;
+	border-left: 2px solid #CFDBE4;
+}
+#comments {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+.bracket {
+	display: none;
+}
+#comment_list dt.comment, #comment_list dd.comment {
+	background: #f7fafd;
+}
+#comment_list dd.comment {
+	margin-bottom: 1em;
+	border: 1px solid #cfdbe4;
+	border-top: 0px;
+	margin-left: 1em;
+	-moz-border-radius-bottomright: 1em;
+	-moz-border-radius-bottomleft: 1em;
+	-webkit-border-bottom-right-radius: 1em;
+	-webkit-border-bottom-left-radius: 1em;
+}
+#comment_list dt.comment {
+	border: 1px solid #cfdbe4;
+	border-bottom: 0px;
+	margin-left: 1em;
+	-moz-border-radius-topright: 1em;
+	-moz-border-radius-topleft: 1em;
+	-webkit-border-top-left-radius: 1em;
+	-webkit-border-top-right-radius: 1em;
+}
+#comment_list dt.comment-author-admin, #comment_list dd.comment-author-admin {
+		background: #d9eaf5 url(images/admin-bg.jpg) bottom center repeat-y;
+}
+
+/* COMMENT FORMS */
+
+#commentform input, #commentform textarea {
+	border: 1px solid #cfdbe4;
+	background-color: #f7fafd;
+}
+#commentform input:hover, #commentform textarea:hover, #commentform textarea:focus, #commentform input:focus  {
+	border: 1px solid #b6c4ce;
+}
+#commentform #submit {
+	padding: 5px 15px;
+	color: #2f333a;
+}
+
+/* TEASERS */
+.teaser .entry-content {
+	padding-right: 2em;
+}
+.teaser .entry-title {
+	padding-right: 2em;
+}
+.teasers_box {
+	padding-left: 1.5em;
+}
+.prev_next p {
+	padding: 0px 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #f4f4f4;
+	-moz-border-radius: .8em;
+	-webkit-border-radius: .8em;
+	border: 1px solid #d6d6d6;
+	text-transform: none;
+	letter-spacing: normal;
+	font-size: 1.3em;
+}
+
+/* FOOTER */
+#footer a, #footer a:visited {
+	color: #f6a836;
+	text-decoration: none;
+	border-bottom: none;}
+#footer a:hover {
+	text-decoration: underline;
+}
+#footer {
+	padding-top: .8em;
+	padding-bottom: 1.2em;
+	font-weight: bold;
+	
+}	
+
+/* TT COMMENTS */
+
+.tt_comment_box {
+	background: url(images/comments.gif) no-repeat;
+	float: left;
+	width: 30px;
+	height: 31px;
+	padding-top: 5px;
+	margin-top: 5px;
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+/* TT SPECIAL HEADER */
+
+#tt_special_header {
+	background: #d9eaf5 url(images/specialh-bg.jpg) bottom center no-repeat;
+	height: 20em;
+	border: #53849e 1px solid;
+	border-bottom: 0px;
+	margin-right: -2px;
+	padding: 4em 6em;
+}
+.tt_icon {
+	width: 201px;
+	height: 197px;
+	background: url(images/rising_icon.png) no-repeat;
+	float: left;
+	padding-right: 40px;
+}
+
+#tt_special_header h3 {
+	font-size: 4.4em;
+	color: #464e5c;
+	padding-bottom: 10px;
+}
+
+#tt_special_header p {
+	font-size: 1.7em;
+	line-height: 1.5em;
+	color: #4d515a;
+}
+
+/* MEDIA BOX */
+
+.custom_box {
+	text-align: left;
+	background: none;
+	padding: 5%;
+	padding-bottom: 0em;
+	margin-bottom: 3em;
+	font-family: Verdana, Geneva, sans-serif;
+	border-bottom: 0px;
+}
+#custom_box {
+	font-size: 1em;
+	padding-top: 2.4em;
+}
+.tt_rss a {
+	background: url(images/rss_icon.png) no-repeat left;
+	padding: 15px 0px 15px 50px;
+	line-height: 43px;
+}
+
+.tt_rss, .tt_twitter {
+	padding-bottom: 25px;
+	font-size: 1.5em;
+}
+
+.tt_twitter a {
+	background: url(images/twitter_icon.png) no-repeat left;
+	padding: 15px 0px 15px 50px;
+	line-height: 43px;
+}
+
+#s {
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 10px 5px;
+	border: 1px solid #e1e1e1;
+	background: #fff url(images/search_bg.gif) repeat-x;
+	font-size: 1.4em;
+	color: #5b5b5b;
+	width: 95%;
+}

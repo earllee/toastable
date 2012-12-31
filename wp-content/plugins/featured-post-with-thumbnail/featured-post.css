@@ -1,0 +1,22 @@
+/*
+ * @package Featured Posts
+ * @author Nando Pappalardo e Giustino Borzacchiello
+ * @version 1.4
+*/
+.widget_featured-posts {background: none;padding:10px 0 0 0;font-size:100%;line-height:30px;}
+.widget_featured-posts li {line-height:15px;margin:0!important;padding:0.75em;}
+.widget_featured-posts li:last-child {border:none;}
+.widget_featured-posts img {padding-bottom: 3px; padding-top:3px; float:left;margin:0 1em 0 0;display:inline;}
+.widget_featured-posts .featured-title {}
+.widget_featured-posts li a {color:#000!important;}
+.widget_featured-posts li:hover img {border: thin; border-color:#ee1164;
+filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;}
+h4.featured-title{margin:0;}
+.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+/* CSS rule for IE6 */
+* html .clearfix {height:1%;}
+/* CSS rule for IE7 */
+*:first-child+html .clearfix {min-height: 1px;}

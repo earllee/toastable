@@ -1,0 +1,106 @@
+li.fcat-post-item {
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+
+.fcat-post-item a img {
+	float: left;
+	padding: 5px;
+	margin: 0px 10px 10px 0px;
+	display: block;
+	border: 1px solid #e1e1e1;
+}
+
+.fcat-post-item a.post-title{
+	font-size: 16px;
+}
+/*.fcat-post-item .post-metadata{clear: left; display: block}*/
+.post-date{
+	float:left;
+	background: url(images/date.png) no-repeat left center ;	
+	width: auto;
+	height:12px;
+	padding: 0px 0px 8px 15px;
+	margin: 0px;
+}
+.fcomment-num{
+	float: right;
+	
+	background: url(images/comments.png) no-repeat left center ;	
+	width: 12px;
+	height:12px;
+	padding: 0px 0px 13px 15px;
+	margin: 0px;
+	font-size: 18px;
+	vertical-align: middle;
+}
+
+.clearfloat{
+clear: both; 
+display: block; 
+border-bottom: 1px solid #E1E1E1; 
+height: 90px;
+margin-bottom: 8px;
+}
+
+.info {
+}
+
+
+/**
+ * This <div> element is wrapped by jCarousel around the list
+ * and has the classname "jcarousel-container".
+ */
+.jcarousel-container {
+    position: relative;
+}
+
+.jcarousel-clip {
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.jcarousel-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel-list li,
+.jcarousel-item {
+    float: left;
+    list-style: none;
+    /* We set the width/height explicitly. No width/height causes infinite loops. */
+    width: 310px;
+    height: 100px;
+}
+
+/**
+ * The buttons are added dynamically by jCarousel before
+ * the <ul> list (inside the <div> described above) and
+ * have the classnames "jcarousel-next" and "jcarousel-prev".
+ */
+.jcarousel-next {
+    z-index: 3;
+    display: none;
+}
+
+.jcarousel-prev {
+    z-index: 3;
+    display: none;
+}
+
+
+
+.jcarousel-skin-arthemia .jcarousel-container-vertical { width: auto; height: 200px; padding:0px}
+.jcarousel-skin-arthemia .jcarousel-clip-vertical { width: auto; height: 200px; }
+#featured{  height: 200px;  overflow: hidden;
+}

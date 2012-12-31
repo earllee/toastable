@@ -1,0 +1,12 @@
+*** Editorial Changelog ***
+
+2011.07.04 - version 1.1
+ * style.css - Added styling for the embedded video in posts, as well as tweaks for the homepage slider.
+ * /includes/gallery.php - Cater for embedded video functionality.
+ * /includes/theme-options.php - Added post meta options to toggle embedded video in posts, as well as autoHeight toggle theme option.
+ * /includes/slider.php - Added "hidden" class to slider pager items, to ensure they don't display until the slider has been loaded.
+ * /includes/theme-functions.php - Updated dimensions function to return the layout-std values by default, if no layout option is set.
+ * /includes/theme-actions.php - Added autoHeight toggle and fixed height functionality to the homepage slider.
+
+2011.06.28 - version 1.0
+ * First release!

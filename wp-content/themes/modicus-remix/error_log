@@ -1,0 +1,2 @@
+[18-Aug-2009 20:13:51] PHP Fatal error:  Call to undefined function  is_single() in /home/toastabl/public_html/wp-content/themes/modicus-remix/sidebar.php on line 2
+[12-Apr-2010 17:23:42] PHP Fatal error:  Call to undefined function  get_header() in /home/toastabl/public_html/wp-content/themes/modicus-remix/index.php on line 1

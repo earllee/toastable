@@ -1,0 +1,302 @@
+/*
+File:			custom.css
+Description:	Custom styles for Thesis
+
+BASIC USAGE:
+
+If you have enabled the custom stylesheet in the Thesis options panel, the <body> tag 
+will be appended with the "custom" class, like so: <body class="custom">. You can use 
+the "custom" class to override *any* CSS declarations contained in the style.css file.
+
+For example, if you wish to change the default link color to green, you would add the 
+following declarations to this file:
+
+	.custom a, .custom a:visited { color: #090; }	<--- This makes links green
+	.custom a:hover { color: #00f; }	<--- This makes links blue when you mouse over them
+
+WHY THIS WORKS:
+
+By using the "custom" class, you are creating more specific CSS declarations for HTML
+elements. CSS styling is applied through rules of specificity, and because declarations
+prepended with .custom are more specific, they get applied when the page is rendered!
+
+More information about styling your Thesis installation using this file can be found
+in the User's Guide:
+	http://diythemes.com/thesis/rtfm/customizing-thesis-with-customcss/
+*/
+
+/*HEADER*/
+		
+ .custom #title_area {background:#de6a61; padding: -100px 0 0; border-bottom:1px solid #c55;}
+	.custom #header_area {
+	border-bottom:none;
+	height: 215px;	
+    padding-bottom: -100px;
+	background:url(images/header.jpg) center no-repeat;
+}
+
+	
+	.custom #header #logo a { display: block; height: 195px; width: 840px; background: url(images/header-logo.png); outline: none; }
+.custom #header #logo, .custom #header #tagline { text-indent: -9999px; }
+.custom #header #tagline { height: 0; }
+.custom #header {border-bottom:none; padding:0}
+.custom #header { padding: 0; }
+	
+/*NAV BAR*/
+.custom ul#tabs li a:hover {color: #fff; text-decoration: underline; background-color: #00202E; }
+.custom .menu li a {background:transparent;}
+.custom .menu li a:hover {background:#00202E;}
+.custom ul.menu {position:absolute; top:0em; right: 50px; width:auto;}
+.custom #nav_area {background: url(images/nav.png) center no-repeat; border-bottom:0 px; padding-top:0px; padding-bottom:20px;}
+	.custom #nav_area .page {background:transparent;}
+		.custom ul#tabs {border-bottom:0; border-color:#DBD4B7;}
+			.custom ul#tabs li {border-color:transparent; background-color:transparent;}
+			.custom ul#tabs li.current_page_item, .custom ul#tabs li.current-cat {background:transparent;}
+/*FOOTER*/
+.custom #footer_area {background: url(images/footer.png) center no-repeat; height:875px; margin-top: -145px; padding:0 0 0; border-top:0px solid #bbd;}
+.custom #footer_area .page {background:transparent; padding: 540px 0 0;}
+		
+		.custom #singlefooter { display:block; text-align:right; padding-left: 7em; padding-top: 1em; color: #fff;}
+		
+.custom #footer {border-top:0;}		
+.custom #footer_1 { margin-left:: 500px; margin-bottom: 10px; text-align:left; font-size:11px; color:#FFFFFF;}
+.custom #footer_1 ul.sidebar_list li.widget {width:23%; margin-right:2%; float:left;}
+.custom #footer_1 ul.sidebar_list li.widget h3 {font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size:13px; color:#FFFc56;}
+.custom #footer_1 ul.sidebar_list li.widget a {color:#ffffff; border-bottom:0;}
+.custom #footer_1 ul.sidebar_list li.widget a:hover {color:#ee1164; text-decoration:none;}
+
+
+	
+
+.footernote {
+	font-size:11px;}
+.footernote h3 {font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size:14px; color:#FFFc56;}
+
+
+/*FONTS*/
+.custom h2, .custom h1 {font-weight:600;}
+@font-face {
+	font-family: Myriad Pro;
+	src: url(http://toastable.com/thecastle/fonts/MyriadPro-Regular.otf);
+	src: local(ò∫),
+			 url(http://toastable.com/thecastle/fonts/MyriadPro-Regular.woff) format('woff'),
+			 url(http://toastable.com/thecastle/fonts/MyriadPro-Regular.ttf) format('truetype'),
+			 url(http://toastable.com/thecastle/fonts/MyriadPro-Regular.svg#webfont) format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+/*SIDEBARS*/
+.custom .sidebar h3 { font-size:18px; font-weight: 200;}
+.custom #content_box {background:none;
+margin-top: -35px;
+margin-left: 10px;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px; /* future proofing */
+-khtml-border-radius: 20px; /* for old Konqueror browsers */}
+.custom .page {-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px; /* future proofing */
+-khtml-border-radius: 20px; /* for old Konqueror browsers */}
+.custom #content {
+	padding-left:0px;}
+
+.custom li.widget ul li {color: #333333; padding-bottom:0; padding-top:0px;}
+.custom li.widget ul a { line-height:1em; padding: none; color:#333;}
+
+.custom #sidebar_1 {margin-left: -15px;}
+
+#linkcat-135 h3 {text-align: center;}
+
+#linkcat-200 h3 {text-align: center;}
+
+#widget_featured-posts-3  {margin-bottom: 1em;}
+#widget_featured-posts-3 h3 {text-align: center;}
+
+#hfpl_widget-3 h3 {text-align:center;}
+
+#categories-2 h3 {text-align: center;; color: #ef4123;}
+
+.custom #query-posts-4, #linkcat-2 h3, #flickrrss h3 {text-align: center;; color: #7fb539;}
+
+#linkcat-181 h3  {text-align: center; color:#333333;}
+
+#text-3 {
+	padding:0.2em;
+	margin-botom: 1em;
+	text-align: center;
+}
+#text-3 h3 {text-align: center; color: #ef4123;}
+
+#text-5 {padding-top: 2em; text-align:center; padding-bottom: 1em;}
+
+#flickrrss {margin-left: 22px; padding-bottom:0em;}
+#flickrrss h3 {margin-left: 3.6em; text-align:left;}
+#fimage {padding:3px; line-height:3px; letter-spacing: 3px; border:thin; border-color: #ee1164;}
+#fimage:hover {filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;} 
+	
+.custom .thumb:hover {filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;} 
+
+.custom .clearfix {padding-left: 1.7em;}
+
+.custom ul.sidebar_list {padding-top: 0px;}
+.custom li.widget {margin-bottom: 0px;}
+.custom li.widget ul li {margin-bottom: 0.3em; text-align:center;}
+
+/*COMMENTS*/
+.custom dl#comment_list dt.bypostauthor, .custom dl#comment_list dd.bypostauthor>div { color: #333333; background: #C5FFFF none repeat scroll 0 0; padding-top:20px;}
+.custom .yarpp {
+	background-color:#FFC;
+	border:thick;
+	border-bottom:medium;
+	border-bottom-color:#33333;
+}
+
+/* BREADCRUMBS */
+#crumbs {
+	font-size: 11px; /*font size, change this to whatever you want*/
+	padding: 0px 0px 0px 20px; /*10 padding top, 10 padding left*/
+}
+#crumbs a {
+	color: #00F /*change this to whatever color you want*/
+}
+#crumbs a:hover {
+	text-decoration: underline; /*underline the links on a mouse over*/
+}
+
+/*TEASERS*/
+.custom .teaser {
+   width: 100%;
+   margin-top: none;
+   padding-top: 1em;
+   border-top: 1px dotted #bbb;
+   text-align: justify;
+   font-size:10px;
+}
+
+.custom .teasers_box h2 a {
+  color: grey;
+}
+.custom .teasers_box h2 a:hover {
+  color: #333333;
+}
+.custom .teasers_box {
+   padding-top: 0;
+   padding-bottom:0;
+   border-top: 0;}
+   
+/*ARCHIVES*/
+.custom .archive h3 {margin-top: 0;}
+.custom .archive ul {font-size: .85em; }
+.custom .archivel { float: left; width: 40%;}
+.custom .archiver { float: right; width: 60%;}
+
+/* POST BOX */
+.readmore:hover {background-image:url(images/more-link-hover.gif);filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;}
+
+.sociallinks {filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;}
+	
+.sociallinks:hover {filter:alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity: 1;
+	opacity: 1;}
+
+/* ADDME MENU */
+.addme:hover { 
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+	padding-bottom: 5em; margin: -12em 0 0 0;
+	color:#FFF;
+	size: 110%;
+	}
+
+#button_nav {
+        list-style: none;
+		padding: 0 0 100px;
+        /* optional background color */
+        background:transparent none repeat scroll 0 0;
+}
+
+#button_nav ul {
+        list-style-image:none;
+        list-style-position:outside;
+        list-style-type:none;
+        /* determines vertical and horizontal placement TOP RIGHT BOTTOM LEFT*/
+        margin: -8.7em -9em 30em 52em;
+}
+
+#button_nav li {
+        display: inline;
+        /* uncomment border for testing*/
+        /*border: 1px solid #000000;*/
+        /* determines size of button box*/
+        padding: 1.1em -.5em 0em -.5em;
+        /* determines spacing between button boxes*/
+        margin: 0 .6em 0 0;
+}
+
+/* SOCIAL MEDIA ICONS BAR */
+.social { border: dashed #ddd; border-width:1px 0 1px 0; margin: 0px auto 10px; display:block; padding: 3px 0 1px 0px;  overflow: hidden; }
+	.social .social_button {float: left; display: inline; overflow: hidden; height:22px; }
+
+	.social .social_button.dg { margin: 0px 0 0 20px ; padding-top: 0px;}
+	.social .social_button.tm { margin: 0px 0 0 15px;  padding-top: 4px;}
+	.social .social_button.fb { margin: 0 0 0 15px;  padding-bottom:-2px;}
+	.social .social_button.su { margin: 0px 0 0 30px;  padding-top: 2px;}
+        .social .social_button.em { margin: 0 0 0 20px;  padding-top: 0px;}
+        .social .social_button.em a{background:#eee url(images/emailthis.gif) 3px 50% no-repeat; padding:2px 3px 2px 20px;  font-size:10px; border:#ddd 1px solid; text-decoration:none; -moz-border-radius: 3px; -webkit-border-radius: 3px;}
+		.social .social_button.em a:hover {background:#ddd url(images/emailthis.gif) 3px 50% no-repeat}
+	.social .social_button a img { border: 0; padding: 0; }
+	.social strong { font-size: 11px; float: left; margin:2px 0 0 0; color:#555;}
+
+.clear{clear:both;}
+
+/* AUTHOR BOX */
+.custom #comments { clear: both; }
+.postauthor { background: #F5F5F5; border-top: 1px solid #e1e1e0; border-bottom: 1px solid #e1e1e0; overflow: hidden; padding: 1.5em; }
+.postauthor img { border: 5px solid #e2dede; float: left; margin-right: 1.5em; }
+.postauthor h4 { color: #666; font-size: 2em; margin-bottom: 5px; }
+.postauthor p { color: #515151; font-size: 13px; margin-bottom: 12px; }
+.postauthor p.hlight { font-size: 11px; text-transform: uppercase; }
+.postauthor p.hlight span { color: #CB3131; font-size: 13px; font-style: italic; font-weight: bold; letter-spacing: 0.8px; }
+
+/* BOXES */
+#similar h3, #rightcol h3 { font-size: 1.8em; letter-spacing: normal; padding-top: 15px; }
+#similar { float: left; width: 50%; }
+#similar p { margin-bottom: 15px; padding: 10px 2.5em 10px 10px; }
+#similar a { font-size: 1.4em; border-bottom: 1px solid #CB3131; line-height: 1.5em; }
+#similar a:hover { border: 0; }
+#similar h3 { padding-left: 10px; }
+#similar span.date { color: #888; letter-spacing: 1px; text-transform: uppercase; }
+#rightcol { float: right; width: 50%; }
+#rightcol p { font-size: 14px; line-height: 1.5em; padding: 10px 2.5em 10px 0;  }
+#rightcol h3 { padding: 0; }
+#rightcol ul { list-style-position: inside;  list-style-type: square; margin-left: 1em; }
+#rightcol ul a { border-bottom: 1px solid #CB3131; font-size: 14px; }
+#rightcol ul a:hover { border: 0; }
+#rightcol li { margin-bottom: 10px; }
+#subscribe { background: #FFFBCC; border: 1px solid #E6DB55; float: right; margin: 15px 15px 0 15px; padding: 19px 10px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+#custom { background: #E4F2FD; border: 1px solid #C6D9E9; padding: 19px 10px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+
+/* RECIPE TABLE */
+table.recipetable {
+	border:dashed;
+	border-width:thin;
+	border-color: gray;}
+table.recipetable th {
+	background-color:#FFFBCC;}
